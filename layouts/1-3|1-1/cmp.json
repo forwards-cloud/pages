@@ -1,0 +1,67 @@
+{
+  "cmp": "v-layout",
+  "attributes": {},
+  "children": [
+    {
+      "cmp": "v-row",
+      "attributes": {
+        "class": "d-flex"
+      },
+      "children": [
+        {
+          "cmp": "v-col",
+          "droppable": true,
+          "attributes": {
+            "cols": "12",
+            "md": "4"
+          },
+          "children": []
+        },
+        {
+          "cmp": "v-col",
+          "attributes": {
+            "cols": "12",
+            "md": "4"
+          },
+          "children": [
+            {
+              "cmp": "v-row",
+              "attributes": {
+                "class": "d-flex flex-column"
+              },
+              "children": [
+                {
+                  "cmp": "v-col",
+                  "droppable": true,
+                  "attributes": {},
+                  "children": []
+                },
+                {
+                  "cmp": "v-col",
+                  "droppable": true,
+                  "attributes": {},
+                  "children": []
+                },
+                {
+                  "cmp": "v-col",
+                  "droppable": true,
+                  "attributes": {},
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cmp": "v-col",
+          "droppable": true,
+          "attributes": {
+            "cols": "12",
+            "md": "4"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

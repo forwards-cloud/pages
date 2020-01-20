@@ -43,7 +43,7 @@
         {
           "cmp": "text",
           "attributes": { "class": "headline text-center" },
-          "value": "Surya Chandra Rao Gandreddi"
+          "value": "Heading"
         }
       ]
     },
@@ -58,7 +58,7 @@
         {
           "cmp": "text",
           "attributes": { "class": "headline text-center" },
-          "value": "Full Stack Engineer and Technology Architect"
+          "value": "Title"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "children": [
         {
           "cmp": "html",
-          "value": "<p>A Full-Stack developer with two decades of experience in programming, I build end-to-end solutions. A Technology Architect. I love playing Cricket, Tennis & Shuttle. I like to read, right now reading \"Shoe Dog\".</p><p>My Work: I've built various products, the latest being SEM.Community & Forwards.Cloud.</p><p>Other interests: Agriculture, Teaching & Sports - would love to work on them in the future.</p><p>I can help as a mentor or a critic for any technology-related or product-related.</p>"
+          "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
         }
       ]
     }

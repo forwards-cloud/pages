@@ -1,0 +1,23 @@
+{
+  "cmp": "v-layout",
+  "description": "1-row 1-column",
+  "attributes": {},
+  "children": [
+    {
+      "cmp": "v-row",
+      "attributes": {
+        "class": "d-flex"
+      },
+      "children": [
+        {
+          "cmp": "v-col",
+          "droppable": true,
+          "attributes": {
+            "cols": "12"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

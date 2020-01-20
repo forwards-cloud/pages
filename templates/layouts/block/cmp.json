@@ -1,9 +1,0 @@
-{
-  "cmp": "v-layout",
-  "attributes": {
-    "column": true,
-    "justify-center": true,
-    "align-center": true
-  },
-  "children": []
-}
