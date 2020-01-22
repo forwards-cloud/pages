@@ -1,0 +1,10 @@
+{
+  "cmp": "div",
+  "attributes": {},
+  "children": [
+    {
+      "cmp": "html",
+      "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+    }
+  ]
+}

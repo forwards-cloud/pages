@@ -1,0 +1,10 @@
+{
+  "cmp": "div",
+  "attributes": { "class": "headline" },
+  "children": [
+    {
+      "cmp": "text",
+      "value": "Heading"
+    }
+  ]
+}
