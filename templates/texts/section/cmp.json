@@ -1,5 +1,6 @@
 {
   "cmp": "div",
+  "attributes": { "class": "pa-4" },
   "children": [
     {
       "cmp": "div",

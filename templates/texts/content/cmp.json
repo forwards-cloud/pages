@@ -1,6 +1,6 @@
 {
   "cmp": "div",
-  "attributes": {},
+  "attributes": { "class": "pa-4" },
   "children": [
     {
       "cmp": "html",
