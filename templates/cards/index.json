@@ -1,0 +1,273 @@
+[
+  {
+    "cmp": "v-card",
+    "attributes": {
+      "elevation": 4,
+      "style": "margin: 112px auto 16px auto;max-width: 600px;width: 100%;padding: 2rem;"
+    },
+    "children": [
+      {
+        "cmp": "div",
+        "attributes": {
+          "elevation": 12,
+          "style": "height: 60px;"
+        },
+        "children": [
+          {
+            "cmp": "v-avatar",
+            "attributes": {
+              "size": "180",
+              "class": "elevation-12",
+              "style": "position: relative;top: -126px;display: block;margin: 0 auto;"
+            },
+            "children": [
+              {
+                "cmp": "img",
+                "attributes": {
+                  "style": "background: #fff;",
+                  "src": "https://fwd.sgp1.digitaloceanspaces.com/users/5d36d503502bcb00182893d6-1ffd2ba20e82-180.jpg",
+                  "alt": "Image"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-title",
+        "attributes": {
+          "class": "headline",
+          "style": "justify-content: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": {
+              "class": "headline text-center"
+            },
+            "value": "Heading"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": {
+          "class": "subtitle-2",
+          "style": "text-align: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": {
+              "class": "headline text-center"
+            },
+            "value": "Title"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": {
+          "class": "body-1"
+        },
+        "children": [
+          {
+            "cmp": "html",
+            "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cmp": "v-card",
+    "attributes": {
+      "elevation": 1,
+      "style": "margin: 1rem auto; max-width: 400px;width: 400%;padding: 2rem;"
+    },
+    "children": [
+      {
+        "cmp": "div",
+        "attributes": {
+          "elevation": 12
+        },
+        "children": [
+          {
+            "cmp": "v-avatar",
+            "attributes": {
+              "size": "240",
+              "class": "elevation-12",
+              "style": "display: block;margin: 0 auto;"
+            },
+            "children": [
+              {
+                "cmp": "img",
+                "attributes": {
+                  "style": "background: #fff;",
+                  "src": "https://fwd.sgp1.digitaloceanspaces.com/users/5d36d503502bcb00182893d6-1ffd2ba20e82-180.jpg",
+                  "alt": "Image"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-title",
+        "attributes": {
+          "class": "headline",
+          "style": "justify-content: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": {
+              "class": "headline text-center"
+            },
+            "value": "Name"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": {
+          "class": "subtitle-2",
+          "style": "text-align: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": {
+              "class": "headline text-center"
+            },
+            "value": "Title"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cmp": "v-card",
+    "attributes": {
+      "elevation": 4,
+      "style": "margin: 1rem auto;max-width: 600px;width: 100%;padding: 2rem;"
+    },
+    "children": [
+      {
+        "cmp": "v-card-title",
+        "attributes": {
+          "class": "headline",
+          "style": "justify-content: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": {
+              "class": "headline text-center"
+            },
+            "value": "Surya Chandra Rao Gandreddi"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": {
+          "class": "subtitle-2",
+          "style": "text-align: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Full Stack Engineer and Technology Architect"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": {
+          "class": "body-1"
+        },
+        "children": [
+          {
+            "cmp": "html",
+            "value": "<p>A Full-Stack developer with two decades of experience in programming, I build end-to-end solutions. A Technology Architect. I love playing Cricket, Tennis & Shuttle. I like to read, right now reading \"Shoe Dog\".</p><p>My Work: I've built various products, the latest being SEM.Community & Forwards.Cloud.</p><p>Other interests: Agriculture, Teaching & Sports - would love to work on them in the future.</p><p>I can help as a mentor or a critic for any technology-related or product-related.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cmp": "v-card",
+    "desc": "Vertical Card",
+    "attributes": {
+      "elevation": 4,
+      "style": "margin: 16px auto;max-width: 600px;width: 100%;"
+    },
+    "children": [
+      {
+        "cmp": "v-img",
+        "attributes": {
+          "height": "400",
+          "src": "https://fwd.sgp1.digitaloceanspaces.com/users/5d36d503502bcb00182893d6-1ffd2ba20e82-180.jpg"
+        }
+      },
+      {
+        "cmp": "div",
+        "attributes": {
+          "style": "padding: 2rem"
+        },
+        "children": [
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "class": "headline",
+              "style": "justify-content: center;",
+              "color": "secondary"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "attributes": {
+                  "class": "headline text-center"
+                },
+                "value": " Surya Chandra Rao Gandreddi"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {
+              "class": "subtitle-2",
+              "style": "text-align: center;",
+              "color": "secondary"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Full Stack Engineer and Technology Architect"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {
+              "class": "body-1"
+            },
+            "children": [
+              {
+                "cmp": "html",
+                "value": "<p>A Full-Stack developer with two decades of experience in programming, I build end-to-end solutions. A Technology Architect. I love playing Cricket, Tennis & Shuttle. I like to read, right now reading \"Shoe Dog\".</p><p>My Work: I've built various products, the latest being SEM.Community & Forwards.Cloud.</p><p>Other interests: Agriculture, Teaching & Sports - would love to work on them in the future.</p><p>I can help as a mentor or a critic for any technology-related or product-related.</p>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

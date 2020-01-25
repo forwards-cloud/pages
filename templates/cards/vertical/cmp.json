@@ -1,5 +1,6 @@
 {
   "cmp": "v-card",
+  "desc": "Vertical Card",
   "attributes": {
     "elevation": 4,
     "style": "margin: 16px auto;max-width: 600px;width: 100%;"
