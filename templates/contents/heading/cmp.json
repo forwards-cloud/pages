@@ -1,0 +1,14 @@
+{
+  "name": "Heading",
+  "desc": "",
+  "value": {
+    "cmp": "div",
+    "attributes": { "class": "headline pa-4" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "Heading"
+      }
+    ]
+  }
+}

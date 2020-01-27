@@ -7,6 +7,8 @@ const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
 async function run() {
+  let all = {};
+
   const directoryPath = path.join(__dirname);
 
   const templates = await readdir(directoryPath, { withFileTypes: true });
@@ -40,14 +42,23 @@ async function run() {
 
       await writeFile(
         path.join(__dirname, template.name, "index.json"),
-        JSON.stringify(allTemplates, null, 2),
+        JSON.stringify(allTemplates), //, null, 2
         error => console.error(error)
       );
+
+      all[template.name] = allTemplates;
 
       console.log("=>", path.join(__dirname, template.name, "index.json"));
       console.log("");
     }
   }
+
+  await writeFile(path.join(__dirname, "index.json"), JSON.stringify(all), error =>
+    console.error(error)
+  );
+
+  console.log("");
+  console.log("==>>", path.join(__dirname, "index.json"));
 }
 
 run();

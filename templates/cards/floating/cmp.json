@@ -1,76 +1,80 @@
 {
-  "cmp": "v-card",
-  "attributes": {
-    "elevation": 4,
-    "style": "margin: 112px auto 16px auto;max-width: 600px;width: 100%;padding: 2rem;"
-  },
-  "children": [
-    {
-      "cmp": "div",
-      "attributes": {
-        "elevation": 12,
-        "style": "height: 60px;"
-      },
-      "children": [
-        {
-          "cmp": "v-avatar",
-          "attributes": {
-            "size": "180",
-            "class": "elevation-12",
-            "style": "position: relative;top: -126px;display: block;margin: 0 auto;"
-          },
-          "children": [
-            {
-              "cmp": "img",
-              "attributes": {
-                "style": "background: #fff;",
-                "src": "https://fwd.sgp1.digitaloceanspaces.com/users/5d36d503502bcb00182893d6-1ffd2ba20e82-180.jpg",
-                "alt": "Image"
+  "name": "Floating Card",
+  "desc": "",
+  "value": {
+    "cmp": "v-card",
+    "attributes": {
+      "elevation": 4,
+      "style": "margin: 112px auto 16px auto;max-width: 600px;width: 100%;padding: 2rem;"
+    },
+    "children": [
+      {
+        "cmp": "div",
+        "attributes": {
+          "elevation": 12,
+          "style": "height: 60px;"
+        },
+        "children": [
+          {
+            "cmp": "v-avatar",
+            "attributes": {
+              "size": "180",
+              "class": "elevation-12",
+              "style": "position: relative;top: -126px;display: block;margin: 0 auto;"
+            },
+            "children": [
+              {
+                "cmp": "img",
+                "attributes": {
+                  "style": "background: #fff;",
+                  "src": "https://fwd.sgp1.digitaloceanspaces.com/users/5d36d503502bcb00182893d6-1ffd2ba20e82-180.jpg",
+                  "alt": "Image"
+                }
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cmp": "v-card-title",
-      "attributes": {
-        "class": "headline",
-        "style": "justify-content: center;",
-        "color": "secondary"
+            ]
+          }
+        ]
       },
-      "children": [
-        {
-          "cmp": "text",
-          "attributes": { "class": "headline text-center" },
-          "value": "Heading"
-        }
-      ]
-    },
-    {
-      "cmp": "v-card-text",
-      "attributes": {
-        "class": "subtitle-2",
-        "style": "text-align: center;",
-        "color": "secondary"
+      {
+        "cmp": "v-card-title",
+        "attributes": {
+          "class": "headline",
+          "style": "justify-content: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": { "class": "headline text-center" },
+            "value": "Heading"
+          }
+        ]
       },
-      "children": [
-        {
-          "cmp": "text",
-          "attributes": { "class": "headline text-center" },
-          "value": "Title"
-        }
-      ]
-    },
-    {
-      "cmp": "v-card-text",
-      "attributes": { "class": "body-1" },
-      "children": [
-        {
-          "cmp": "html",
-          "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
-        }
-      ]
-    }
-  ]
+      {
+        "cmp": "v-card-text",
+        "attributes": {
+          "class": "subtitle-2",
+          "style": "text-align: center;",
+          "color": "secondary"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "attributes": { "class": "headline text-center" },
+            "value": "Title"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": { "class": "body-1" },
+        "children": [
+          {
+            "cmp": "html",
+            "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+          }
+        ]
+      }
+    ]
+  }
 }
