@@ -60,7 +60,6 @@
         "children": [
           {
             "cmp": "text",
-            "attributes": { "class": "headline text-center" },
             "value": "Title"
           }
         ]
