@@ -1,0 +1,20 @@
+{
+  "name": "Vimeo Player",
+  "desc": "",
+  "order": 2,
+  "view": {
+    "cmp": "div",
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "html",
+        "value": "Vimeo Player"
+      }
+    ]
+  },
+  "value": {
+    "cmp": "plyr",
+    "attributes": { "provider": "vimeo", "embed": "12310456" },
+    "children": []
+  }
+}

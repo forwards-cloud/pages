@@ -1,0 +1,102 @@
+[
+  {
+    "name": "YouTube",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "html",
+          "value": "YouTube"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "iframe",
+      "attributes": {
+        "width": "100%",
+        "height": "480px",
+        "frameborder": 0,
+        "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+        "allowfullscreen": true,
+        "src": "https://www.youtube.com/embed/bTqVqk7FSmY"
+      },
+      "children": []
+    }
+  },
+  {
+    "name": "YouTube Player",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "html",
+          "value": "YouTube Player"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "plyr",
+      "attributes": {
+        "provider": "youtube",
+        "embed": "bTqVqk7FSmY"
+      },
+      "children": []
+    }
+  },
+  {
+    "name": "Vimeo",
+    "desc": "",
+    "order": 2,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "html",
+          "value": "Vimeo Video"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "iframe",
+      "attributes": {
+        "width": "100%",
+        "height": "480px",
+        "frameborder": 0,
+        "allow": "autoplay; fullscreen",
+        "allowfullscreen": true,
+        "src": "https://player.vimeo.com/video/40648169"
+      },
+      "children": []
+    }
+  },
+  {
+    "name": "Vimeo Player",
+    "desc": "",
+    "order": 2,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "html",
+          "value": "Vimeo Player"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "plyr",
+      "attributes": {
+        "provider": "vimeo",
+        "embed": "12310456"
+      },
+      "children": []
+    }
+  }
+]

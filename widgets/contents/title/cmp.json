@@ -1,0 +1,26 @@
+{
+  "name": "Title",
+  "desc": "",
+  "order": 3,
+  "view": {
+    "cmp": "div",
+    "attributes": { "class": "title" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is the Title."
+      }
+    ]
+  },
+  "value": {
+    "cmp": "div",
+    "draggable": true,
+    "attributes": { "class": "title" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "Title"
+      }
+    ]
+  }
+}

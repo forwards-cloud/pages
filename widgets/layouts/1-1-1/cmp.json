@@ -1,0 +1,103 @@
+{
+  "name": "1 row [3 columns]",
+  "desc": "",
+  "order": 3,
+  "view": {
+    "cmp": "v-container",
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "v-row",
+        "attributes": {
+          "class": "d-flex"
+        },
+        "children": [
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "4"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Column 1"
+              }
+            ]
+          },
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "4"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Column 2"
+              }
+            ]
+          },
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "4"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Column 3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "value": {
+    "cmp": "v-container",
+    "draggable": true,
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "v-row",
+        "attributes": {
+          "class": "d-flex"
+        },
+        "children": [
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "4"
+            },
+            "children": []
+          },
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "4"
+            },
+            "children": []
+          },
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "4"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

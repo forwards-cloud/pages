@@ -1,0 +1,27 @@
+{
+  "name": "YouTube",
+  "desc": "",
+  "order": 1,
+  "view": {
+    "cmp": "div",
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "html",
+        "value": "YouTube"
+      }
+    ]
+  },
+  "value": {
+    "cmp": "iframe",
+    "attributes": {
+      "width": "100%",
+      "height": "480px",
+      "frameborder": 0,
+      "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+      "allowfullscreen": true,
+      "src": "https://www.youtube.com/embed/bTqVqk7FSmY"
+    },
+    "children": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "YouTube Player",
+  "desc": "",
+  "order": 1,
+  "view": {
+    "cmp": "div",
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "html",
+        "value": "YouTube Player"
+      }
+    ]
+  },
+  "value": {
+    "cmp": "plyr",
+    "attributes": { "provider": "youtube", "embed": "bTqVqk7FSmY" },
+    "children": []
+  }
+}

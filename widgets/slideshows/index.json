@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Simple SlideShow",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "v-carousel",
+      "order": 1,
+      "attributes": {
+        "cycle": true
+      },
+      "children": [
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+          },
+          "children": []
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+          },
+          "children": []
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+          },
+          "children": []
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-carousel",
+      "order": 1,
+      "attributes": {
+        "height": "800"
+      },
+      "children": [
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+          },
+          "children": []
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+          },
+          "children": []
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+          },
+          "children": []
+        }
+      ]
+    }
+  },
+  {
+    "name": "SlideShow With Text",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "v-carousel",
+      "order": 1,
+      "attributes": {
+        "height": "800",
+        "cycle": true
+      },
+      "children": [
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-parallax",
+              "attributes": {
+                "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "fill-height",
+                    "align": "center",
+                    "justify": "center"
+                  },
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "display-3"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "Team"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-parallax",
+              "attributes": {
+                "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "fill-height",
+                    "align": "center",
+                    "justify": "center"
+                  },
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "display-3"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "Kids"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-parallax",
+              "attributes": {
+                "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "fill-height",
+                    "align": "center",
+                    "justify": "center"
+                  },
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "display-3"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "Coding"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-carousel",
+      "order": 1,
+      "attributes": {
+        "height": "800",
+        "cycle": true
+      },
+      "children": [
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-parallax",
+              "attributes": {
+                "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "fill-height",
+                    "align": "center",
+                    "justify": "center"
+                  },
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "display-3"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "Team"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-parallax",
+              "attributes": {
+                "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "fill-height",
+                    "align": "center",
+                    "justify": "center"
+                  },
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "display-3"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "Kids"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cmp": "v-carousel-item",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-parallax",
+              "attributes": {
+                "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "fill-height",
+                    "align": "center",
+                    "justify": "center"
+                  },
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "display-3"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "Coding"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

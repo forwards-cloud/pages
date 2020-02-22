@@ -1,0 +1,1293 @@
+[
+  {
+    "name": "1 row [1 column]",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Only one column"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [2 columns]",
+    "desc": "",
+    "order": 2,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [3 columns]",
+    "desc": "",
+    "order": 3,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [4 columns]",
+    "desc": "",
+    "order": 4,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 3"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "3"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [6 columns]",
+    "desc": "",
+    "order": 5,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 3"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 4"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 5"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6",
+                "lg": "4",
+                "xl": "2"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [2/3 column + 1/3 column]",
+    "desc": "",
+    "order": 6,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "8"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "8"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [3/4 column + 1/4 column]",
+    "desc": "",
+    "order": 7,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "9"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "3"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "9"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "3"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [1 column + 1 column [2 rows]]",
+    "desc": "",
+    "order": 8,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.1"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [1 column + 1 column [2 rows] + 1 column]",
+    "desc": "",
+    "order": 9,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.1"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [1 column + 1 column [3 rows] + 1 column]",
+    "desc": "",
+    "order": 10,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 1"
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.1"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.2"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 2.3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            },
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "md": "4"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "1 row [1 column [2 rows] + 1 column]",
+    "desc": "",
+    "order": 11,
+    "view": {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 1.1"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Column 1.2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "text",
+                  "value": "Column 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "v-container",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {
+            "class": "d-flex"
+          },
+          "children": [
+            {
+              "cmp": "v-col",
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": [
+                {
+                  "cmp": "v-row",
+                  "attributes": {
+                    "class": "d-flex flex-column"
+                  },
+                  "children": [
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    },
+                    {
+                      "cmp": "v-col",
+                      "droppable": true,
+                      "attributes": {},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "droppable": true,
+              "attributes": {
+                "cols": "12",
+                "sm": "6"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

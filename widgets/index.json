@@ -1,0 +1,2836 @@
+{
+  "cards": [
+    {
+      "name": "Floating Card",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "v-card",
+        "attributes": {
+          "elevation": 4,
+          "style": "margin: 61px auto 16px auto;padding: 2rem;max-width: 600px;width: 100%;"
+        },
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "elevation": 12,
+              "style": "height: 60px;"
+            },
+            "children": [
+              {
+                "cmp": "v-avatar",
+                "attributes": {
+                  "size": "180",
+                  "class": "elevation-12",
+                  "style": "position: relative;top: -126px;display: block;margin: 0 auto;"
+                },
+                "children": [
+                  {
+                    "cmp": "img",
+                    "attributes": {
+                      "style": "background: #fff;",
+                      "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png",
+                      "alt": "Image"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-card",
+        "draggable": true,
+        "attributes": {
+          "elevation": 4,
+          "style": "margin: 112px auto 16px auto;max-width: 600px;width: 100%;padding: 2rem;"
+        },
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "elevation": 12,
+              "style": "height: 60px;"
+            },
+            "children": [
+              {
+                "cmp": "v-avatar",
+                "attributes": {
+                  "size": "180",
+                  "class": "elevation-12",
+                  "style": "position: relative;top: -126px;display: block;margin: 0 auto;"
+                },
+                "children": [
+                  {
+                    "cmp": "img",
+                    "attributes": {
+                      "style": "background: #fff;",
+                      "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png",
+                      "alt": "Image"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "Update your content"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Photo",
+      "desc": "",
+      "order": 2,
+      "view": {
+        "cmp": "v-card",
+        "attributes": {
+          "elevation": 1,
+          "style": "margin: 0 auto; max-width: 400px;width: 400%;padding: 2rem;"
+        },
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "elevation": 12
+            },
+            "children": [
+              {
+                "cmp": "v-avatar",
+                "attributes": {
+                  "size": "240",
+                  "class": "elevation-12",
+                  "style": "display: block;margin: 0 auto;"
+                },
+                "children": [
+                  {
+                    "cmp": "img",
+                    "attributes": {
+                      "style": "background: #fff;",
+                      "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png",
+                      "alt": "Image"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Name"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-card",
+        "draggable": true,
+        "attributes": {
+          "elevation": 1,
+          "style": "margin: 1rem auto; max-width: 400px;width: 400%;padding: 2rem;"
+        },
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "elevation": 12
+            },
+            "children": [
+              {
+                "cmp": "v-avatar",
+                "attributes": {
+                  "size": "240",
+                  "class": "elevation-12",
+                  "style": "display: block;margin: 0 auto;"
+                },
+                "children": [
+                  {
+                    "cmp": "img",
+                    "attributes": {
+                      "style": "background: #fff;",
+                      "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png",
+                      "alt": "Image"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Name"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Text",
+      "desc": "",
+      "order": 3,
+      "view": {
+        "cmp": "v-card",
+        "attributes": {
+          "elevation": 4,
+          "style": "margin: 0 auto;max-width: 600px;width: 100%;padding: 2rem;"
+        },
+        "children": [
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Surya Chandra Rao Gandreddi"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Full Stack Engineer and Technology Architect"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "<p>A Full-Stack developer with two decades of experience in programming, I build end-to-end solutions. A Technology Architect. I love playing Cricket, Tennis & Shuttle. I like to read, right now reading \"Shoe Dog\".</p><p>My Work: I've built various products, the latest being SEM.Community & Forwards.Cloud.</p><p>Other interests: Agriculture, Teaching & Sports - would love to work on them in the future.</p><p>I can help as a mentor or a critic for any technology-related or product-related.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-card",
+        "draggable": true,
+        "attributes": {
+          "elevation": 4,
+          "style": "margin: 1rem auto;max-width: 600px;width: 100%;padding: 2rem;"
+        },
+        "children": [
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "Update your content"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vertical Card",
+      "desc": "",
+      "order": 4,
+      "view": {
+        "cmp": "v-card",
+        "attributes": {
+          "elevation": 4,
+          "style": "margin: 0 auto;max-width: 600px;width: 100%;"
+        },
+        "children": [
+          {
+            "cmp": "v-img",
+            "attributes": {
+              "height": "400",
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png"
+            }
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "style": "padding: 2rem"
+            },
+            "children": [
+              {
+                "cmp": "v-card-title",
+                "attributes": {
+                  "style": "justify-content: center;"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Surya Chandra Rao Gandreddi"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-card-subtitle",
+                "attributes": {
+                  "style": "text-align: center;"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Full Stack Engineer and Technology Architect"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-card-text",
+                "attributes": {},
+                "children": [
+                  {
+                    "cmp": "html",
+                    "value": "<p>A Full-Stack developer with two decades of experience in programming, I build end-to-end solutions. A Technology Architect. I love playing Cricket, Tennis & Shuttle. I like to read, right now reading \"Shoe Dog\".</p><p>My Work: I've built various products, the latest being SEM.Community & Forwards.Cloud.</p><p>Other interests: Agriculture, Teaching & Sports - would love to work on them in the future.</p><p>I can help as a mentor or a critic for any technology-related or product-related.</p>"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-card",
+        "draggable": true,
+        "attributes": {
+          "elevation": 4,
+          "style": "margin: 16px auto;max-width: 600px;width: 100%;"
+        },
+        "children": [
+          {
+            "cmp": "v-img",
+            "attributes": {
+              "height": "400",
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png"
+            }
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "style": "padding: 2rem"
+            },
+            "children": [
+              {
+                "cmp": "v-card-title",
+                "attributes": {
+                  "style": "justify-content: center;"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Heading"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-card-subtitle",
+                "attributes": {
+                  "style": "text-align: center;"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Title"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-card-text",
+                "attributes": {},
+                "children": [
+                  {
+                    "cmp": "html",
+                    "value": "Update your content"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "contents": [
+    {
+      "name": "Text",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "body-1"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Text."
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "body-1"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Small Text",
+      "desc": "",
+      "order": 2,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "body-2"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Small Text"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "body-2"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Small Text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Title",
+      "desc": "",
+      "order": 3,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "title"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is the Title."
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "title"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Title"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SubTitle 1",
+      "desc": "",
+      "order": 4,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "subtitle-1"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is SubTitle-1 text."
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "subtitle-1"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "SubTitle 1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SubTitle 2",
+      "desc": "",
+      "order": 5,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "subtitle-2"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is SubTitle-2 text."
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "subtitle-2"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "SubTitle 2"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Caption",
+      "desc": "",
+      "order": 6,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "caption"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is the Caption text"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "caption"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Caption"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Overline",
+      "desc": "",
+      "order": 7,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "overline"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is an Overline"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "overline"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Update your overline"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading",
+      "desc": "",
+      "order": 8,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "headline"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Heading"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "headline"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading 1",
+      "desc": "",
+      "order": 9,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "display-1"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Heading 1"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "display-1"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading 1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading 2",
+      "desc": "",
+      "order": 10,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "display-2"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Heading 2"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "display-2"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading 2"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading 3",
+      "desc": "",
+      "order": 11,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "display-3"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Heading 3"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "display-3"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading 3"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading 4",
+      "desc": "",
+      "order": 12,
+      "view": {
+        "cmp": "div",
+        "attributes": {
+          "class": "display-4"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "This is Heading 4"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {
+          "class": "display-4"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading 4"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading & Content",
+      "desc": "",
+      "order": 13,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "headline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "This is Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "headline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "Update your content"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heading, Title & Content",
+      "desc": "",
+      "order": 14,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "headline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "This is Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "title"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "This is Title"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "headline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "title"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "Update your content"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Overline, Heading, Title & Content",
+      "desc": "",
+      "order": 15,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "overline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "This is an Overline"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "headline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "This is Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "title"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "This is the Title"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "div",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "overline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Overline"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "headline"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {
+              "class": "title"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "cmp": "div",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "Update your content"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "name": "Image",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "img",
+        "attributes": {
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/1024.png",
+          "style": "width: 100%;"
+        },
+        "children": []
+      },
+      "value": {
+        "cmp": "img",
+        "draggable": true,
+        "attributes": {
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/1024.png",
+          "style": "width: 100%;"
+        },
+        "children": []
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "name": "1 row [1 column]",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Only one column"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [2 columns]",
+      "desc": "",
+      "order": 2,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [3 columns]",
+      "desc": "",
+      "order": 3,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [4 columns]",
+      "desc": "",
+      "order": 4,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 3"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 4"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "3"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [6 columns]",
+      "desc": "",
+      "order": 5,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 3"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 4"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 5"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 6"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6",
+                  "lg": "4",
+                  "xl": "2"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [2/3 column + 1/3 column]",
+      "desc": "",
+      "order": 6,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "8"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "8"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [3/4 column + 1/4 column]",
+      "desc": "",
+      "order": 7,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "9"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "3"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "9"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "3"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [1 column + 1 column [2 rows]]",
+      "desc": "",
+      "order": 8,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.1"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [1 column + 1 column [2 rows] + 1 column]",
+      "desc": "",
+      "order": 9,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.1"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [1 column + 1 column [3 rows] + 1 column]",
+      "desc": "",
+      "order": 10,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 1"
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.1"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.2"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 2.3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "1 row [1 column [2 rows] + 1 column]",
+      "desc": "",
+      "order": 11,
+      "view": {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 1.1"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Column 1.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "text",
+                    "value": "Column 2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-container",
+        "draggable": true,
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "d-flex"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "d-flex flex-column"
+                    },
+                    "children": [
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      },
+                      {
+                        "cmp": "v-col",
+                        "droppable": true,
+                        "attributes": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "droppable": true,
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "slideshows": [
+    {
+      "name": "Simple SlideShow",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "v-carousel",
+        "order": 1,
+        "attributes": {
+          "cycle": true
+        },
+        "children": [
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+            },
+            "children": []
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+            },
+            "children": []
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+            },
+            "children": []
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-carousel",
+        "order": 1,
+        "attributes": {
+          "height": "800"
+        },
+        "children": [
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+            },
+            "children": []
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+            },
+            "children": []
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlideShow With Text",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "v-carousel",
+        "order": 1,
+        "attributes": {
+          "height": "800",
+          "cycle": true
+        },
+        "children": [
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-parallax",
+                "attributes": {
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "fill-height",
+                      "align": "center",
+                      "justify": "center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {
+                          "class": "display-3"
+                        },
+                        "children": [
+                          {
+                            "cmp": "html",
+                            "value": "Team"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-parallax",
+                "attributes": {
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "fill-height",
+                      "align": "center",
+                      "justify": "center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {
+                          "class": "display-3"
+                        },
+                        "children": [
+                          {
+                            "cmp": "html",
+                            "value": "Kids"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-parallax",
+                "attributes": {
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "fill-height",
+                      "align": "center",
+                      "justify": "center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {
+                          "class": "display-3"
+                        },
+                        "children": [
+                          {
+                            "cmp": "html",
+                            "value": "Coding"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "value": {
+        "cmp": "v-carousel",
+        "order": 1,
+        "attributes": {
+          "height": "800",
+          "cycle": true
+        },
+        "children": [
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-parallax",
+                "attributes": {
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "fill-height",
+                      "align": "center",
+                      "justify": "center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {
+                          "class": "display-3"
+                        },
+                        "children": [
+                          {
+                            "cmp": "html",
+                            "value": "Team"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-parallax",
+                "attributes": {
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "fill-height",
+                      "align": "center",
+                      "justify": "center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {
+                          "class": "display-3"
+                        },
+                        "children": [
+                          {
+                            "cmp": "html",
+                            "value": "Kids"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-carousel-item",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-parallax",
+                "attributes": {
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+                },
+                "children": [
+                  {
+                    "cmp": "v-row",
+                    "attributes": {
+                      "class": "fill-height",
+                      "align": "center",
+                      "justify": "center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {
+                          "class": "display-3"
+                        },
+                        "children": [
+                          {
+                            "cmp": "html",
+                            "value": "Coding"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [
+    {
+      "name": "YouTube",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "html",
+            "value": "YouTube"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "iframe",
+        "attributes": {
+          "width": "100%",
+          "height": "480px",
+          "frameborder": 0,
+          "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+          "allowfullscreen": true,
+          "src": "https://www.youtube.com/embed/bTqVqk7FSmY"
+        },
+        "children": []
+      }
+    },
+    {
+      "name": "YouTube Player",
+      "desc": "",
+      "order": 1,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "html",
+            "value": "YouTube Player"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "plyr",
+        "attributes": {
+          "provider": "youtube",
+          "embed": "bTqVqk7FSmY"
+        },
+        "children": []
+      }
+    },
+    {
+      "name": "Vimeo",
+      "desc": "",
+      "order": 2,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "html",
+            "value": "Vimeo Video"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "iframe",
+        "attributes": {
+          "width": "100%",
+          "height": "480px",
+          "frameborder": 0,
+          "allow": "autoplay; fullscreen",
+          "allowfullscreen": true,
+          "src": "https://player.vimeo.com/video/40648169"
+        },
+        "children": []
+      }
+    },
+    {
+      "name": "Vimeo Player",
+      "desc": "",
+      "order": 2,
+      "view": {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "html",
+            "value": "Vimeo Player"
+          }
+        ]
+      },
+      "value": {
+        "cmp": "plyr",
+        "attributes": {
+          "provider": "vimeo",
+          "embed": "12310456"
+        },
+        "children": []
+      }
+    }
+  ]
+}

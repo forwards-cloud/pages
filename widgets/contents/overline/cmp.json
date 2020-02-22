@@ -1,0 +1,26 @@
+{
+  "name": "Overline",
+  "desc": "",
+  "order": 7,
+  "view": {
+    "cmp": "div",
+    "attributes": { "class": "overline" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is an Overline"
+      }
+    ]
+  },
+  "value": {
+    "cmp": "div",
+    "draggable": true,
+    "attributes": { "class": "overline" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "Update your overline"
+      }
+    ]
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "cmp": "v-container",
+  "attributes": { "fluid": true, "tag": "section" },
+  "children": [
+    {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-col",
+              "attributes": { "cols": "12", "md": "8" },
+              "children": [
+                {
+                  "cmp": "div",
+                  "attributes": {
+                    "class": "display-3 font-weight-regular"
+                  },
+                  "children": [
+                    {
+                      "cmp": "text",
+                      "value": "Your Name"
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {
+                    "class": "body-2 font-regular mt-3"
+                  },
+                  "children": [
+                    {
+                      "cmp": "text",
+                      "value": "Lorem Ipsum is simply dummy text of the printing"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "attributes": { "cols": "12", "md": "4" },
+              "children": [
+                {
+                  "cmp": "div",
+                  "attributes": {
+                    "class": "body-2 font-weight-light"
+                  },
+                  "children": [
+                    {
+                      "cmp": "text",
+                      "value": "Door #, Street, Town, City, India, 530028"
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {
+                    "class": "body-2 font-weight-medium"
+                  },
+                  "children": [
+                    {
+                      "cmp": "text",
+                      "value": "(+91) 12345 56789"
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {
+                    "class": "body-2 font-weight-medium"
+                  },
+                  "children": [
+                    {
+                      "cmp": "text",
+                      "value": "email@forwards.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cmp": "v-container",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "v-row",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "v-col",
+              "attributes": { "cols": "12", "md": "8" },
+              "children": [
+                {
+                  "cmp": "div",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "title font-weight-medium",
+                        "style": "color: #1976D2;margin: 1rem 0 2rem 0;text-transform: uppercase;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Experience"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "style": "margin: 2rem 0;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "overline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Apr 2010 - Mar 2020"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "headline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Company"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "body-1" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Job Title"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": {
+                            "class": "body-2 font-weight-light"
+                          },
+                          "children": [
+                            {
+                              "cmp": "html",
+                              "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "style": "margin: 2rem 0;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "overline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Apr 2000 - Mar 2010"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "headline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Company"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "body-1" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Job Title"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": {
+                            "class": "body-2 font-weight-light"
+                          },
+                          "children": [
+                            {
+                              "cmp": "html",
+                              "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "title font-weight-medium",
+                        "style": "color: #1976D2;margin: 3rem 0 2rem 0;text-transform: uppercase;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Education"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "style": "margin: 2rem 0;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "overline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Jun 2000 - Apr 2004"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "headline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "University Name"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "body-1" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Degree"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": {
+                            "class": "body-2 font-weight-light"
+                          },
+                          "children": [
+                            {
+                              "cmp": "html",
+                              "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "title font-weight-medium",
+                        "style": "color: #1976D2;margin: 3rem 0 2rem 0;text-transform: uppercase;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Projects"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "style": "margin: 2rem 0;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "div",
+                          "attributes": { "class": "headline" },
+                          "children": [
+                            {
+                              "cmp": "text",
+                              "value": "Project Name"
+                            }
+                          ]
+                        },
+                        {
+                          "cmp": "div",
+                          "attributes": {
+                            "class": "body-2 font-weight-light"
+                          },
+                          "children": [
+                            {
+                              "cmp": "html",
+                              "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cmp": "v-col",
+              "attributes": { "cols": "12", "md": "4" },
+              "children": [
+                {
+                  "cmp": "div",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "title font-weight-medium",
+                        "style": "color: #1976D2;margin: 1rem 0 2rem 0;text-transform: uppercase;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Skills"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "body-2"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "title font-weight-medium",
+                        "style": "color: #1976D2;margin: 3rem 0 2rem 0;text-transform: uppercase;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Awards"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "body-2"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "cmp": "div",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "title font-weight-medium",
+                        "style": "color: #1976D2;margin: 3rem 0 2rem 0;text-transform: uppercase;"
+                      },
+                      "children": [
+                        {
+                          "cmp": "text",
+                          "value": "Languages"
+                        }
+                      ]
+                    },
+                    {
+                      "cmp": "div",
+                      "attributes": {
+                        "class": "body-2"
+                      },
+                      "children": [
+                        {
+                          "cmp": "html",
+                          "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

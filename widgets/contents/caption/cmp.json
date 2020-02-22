@@ -1,0 +1,26 @@
+{
+  "name": "Caption",
+  "desc": "",
+  "order": 6,
+  "view": {
+    "cmp": "div",
+    "attributes": { "class": "caption" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is the Caption text"
+      }
+    ]
+  },
+  "value": {
+    "cmp": "div",
+    "draggable": true,
+    "attributes": { "class": "caption" },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "Caption"
+      }
+    ]
+  }
+}

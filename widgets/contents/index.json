@@ -1,0 +1,620 @@
+[
+  {
+    "name": "Text",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "body-1"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Text."
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "body-1"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Text"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Small Text",
+    "desc": "",
+    "order": 2,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "body-2"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Small Text"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "body-2"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Small Text"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Title",
+    "desc": "",
+    "order": 3,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "title"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is the Title."
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "title"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Title"
+        }
+      ]
+    }
+  },
+  {
+    "name": "SubTitle 1",
+    "desc": "",
+    "order": 4,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "subtitle-1"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is SubTitle-1 text."
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "subtitle-1"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "SubTitle 1"
+        }
+      ]
+    }
+  },
+  {
+    "name": "SubTitle 2",
+    "desc": "",
+    "order": 5,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "subtitle-2"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is SubTitle-2 text."
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "subtitle-2"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "SubTitle 2"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Caption",
+    "desc": "",
+    "order": 6,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "caption"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is the Caption text"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "caption"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Caption"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Overline",
+    "desc": "",
+    "order": 7,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "overline"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is an Overline"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "overline"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Update your overline"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading",
+    "desc": "",
+    "order": 8,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "headline"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Heading"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "headline"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Heading"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading 1",
+    "desc": "",
+    "order": 9,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "display-1"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Heading 1"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "display-1"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Heading 1"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading 2",
+    "desc": "",
+    "order": 10,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "display-2"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Heading 2"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "display-2"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Heading 2"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading 3",
+    "desc": "",
+    "order": 11,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "display-3"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Heading 3"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "display-3"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Heading 3"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading 4",
+    "desc": "",
+    "order": 12,
+    "view": {
+      "cmp": "div",
+      "attributes": {
+        "class": "display-4"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "This is Heading 4"
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {
+        "class": "display-4"
+      },
+      "children": [
+        {
+          "cmp": "text",
+          "value": "Heading 4"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading & Content",
+    "desc": "",
+    "order": 13,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "headline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "This is Heading"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "html",
+              "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "headline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "Heading"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "html",
+              "value": "Update your content"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heading, Title & Content",
+    "desc": "",
+    "order": 14,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "headline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "This is Heading"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "title"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "This is Title"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "html",
+              "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "headline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "Heading"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "title"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "Title"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "html",
+              "value": "Update your content"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Overline, Heading, Title & Content",
+    "desc": "",
+    "order": 15,
+    "view": {
+      "cmp": "div",
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "overline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "This is an Overline"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "headline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "This is Heading"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "title"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "This is the Title"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "html",
+              "value": "<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "value": {
+      "cmp": "div",
+      "draggable": true,
+      "attributes": {},
+      "children": [
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "overline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "Overline"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "headline"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "Heading"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {
+            "class": "title"
+          },
+          "children": [
+            {
+              "cmp": "text",
+              "value": "Title"
+            }
+          ]
+        },
+        {
+          "cmp": "div",
+          "attributes": {},
+          "children": [
+            {
+              "cmp": "html",
+              "value": "Update your content"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

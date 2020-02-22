@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Image",
+    "desc": "",
+    "order": 1,
+    "view": {
+      "cmp": "img",
+      "attributes": {
+        "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/1024.png",
+        "style": "width: 100%;"
+      },
+      "children": []
+    },
+    "value": {
+      "cmp": "img",
+      "draggable": true,
+      "attributes": {
+        "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/1024.png",
+        "style": "width: 100%;"
+      },
+      "children": []
+    }
+  }
+]
