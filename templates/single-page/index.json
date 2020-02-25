@@ -1,0 +1,372 @@
+[
+  {
+    "cmp": "section",
+    "attributes": {
+      "fluid": true,
+      "tag": "section"
+    },
+    "children": [
+      {
+        "cmp": "v-parallax",
+        "attributes": {
+          "style": "height: 100vh;",
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages@0.1.1/backgrounds/beach-foam-landscape-nature-533923.jpg"
+        },
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "align": "center",
+              "justify": "center"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "class": "text-center",
+                  "cols": "12"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "display-1 mb-4"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Your Title"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "subheading"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "your one liner can go here!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "align": "center",
+                  "justify": "center",
+                  "class": "pa-12"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "headline pa-1"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "This is the heading"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": ""
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "This can be the description of your page"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "pb-12"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "headline pb-3 text-center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Heading 1"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "body-1"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "headline pb-3 text-center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Heading 2"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "body-1"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "md": "4"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "headline pb-3 text-center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Heading 3"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "body-1"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-parallax",
+        "attributes": {
+          "style": "height: 100vh;",
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages@0.1.1/backgrounds/balance-macro-ocean-pebbles-235990.jpg"
+        },
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "align": "center",
+              "justify": "center"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "class": "text-center",
+                  "cols": "12"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "display-1 mb-4"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Second Title"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "subheading"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "your second liner can go here!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-container",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-row",
+            "attributes": {
+              "class": "pa-12"
+            },
+            "children": [
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "headline pb-3 text-center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "About"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "body-1 font-weight-light pa-4"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cmp": "v-col",
+                "attributes": {
+                  "cols": "12",
+                  "sm": "6"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "headline pb-3 text-center"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Contact"
+                      }
+                    ]
+                  },
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "body-1 font-weight-light pa-4"
+                    },
+                    "children": [
+                      {
+                        "cmp": "div",
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "Door #, Street, Town, City, India, 530028"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "div",
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "(+91) 12345 56789"
+                          }
+                        ]
+                      },
+                      {
+                        "cmp": "div",
+                        "attributes": {},
+                        "children": [
+                          {
+                            "cmp": "text",
+                            "value": "email@forwards.com"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
