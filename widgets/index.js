@@ -29,11 +29,14 @@ async function run() {
         if (templateFile.isDirectory()) {
           console.log("\t", templateFile.name);
           try {
-            var components = await readFile(
-              path.join(__dirname, template.name, templateFile.name, "value.json"),
-              "utf8"
+            var components = JSON.parse(
+              await readFile(
+                path.join(__dirname, template.name, templateFile.name, "value.json"),
+                "utf8"
+              )
             );
-            allTemplates.push(JSON.parse(components));
+            components["folder"] = templateFile.name;
+            allTemplates.push(components);
           } catch (e) {
             console.error("File reading:", e);
           }

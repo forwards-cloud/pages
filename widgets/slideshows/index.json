@@ -33,7 +33,8 @@
           "children": []
         }
       ]
-    }
+    },
+    "folder": "simple"
   },
   {
     "name": "SlideShow With Text",
@@ -156,6 +157,7 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "with text"
   }
 ]

@@ -73,7 +73,8 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "floating"
   },
   {
     "name": "Photo",
@@ -138,7 +139,8 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "photo"
   },
   {
     "name": "Text",
@@ -187,7 +189,8 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "text"
   },
   {
     "name": "Vertical Card",
@@ -251,6 +254,7 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "vertical"
   }
 ]

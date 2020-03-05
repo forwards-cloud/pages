@@ -15,7 +15,8 @@
           "value": "Text"
         }
       ]
-    }
+    },
+    "folder": "text"
   },
   {
     "name": "Small Text",
@@ -33,7 +34,8 @@
           "value": "Small Text"
         }
       ]
-    }
+    },
+    "folder": "small text"
   },
   {
     "name": "Title",
@@ -51,7 +53,8 @@
           "value": "Title"
         }
       ]
-    }
+    },
+    "folder": "title"
   },
   {
     "name": "SubTitle 1",
@@ -69,7 +72,8 @@
           "value": "SubTitle 1"
         }
       ]
-    }
+    },
+    "folder": "subtitle 1"
   },
   {
     "name": "SubTitle 2",
@@ -87,7 +91,8 @@
           "value": "SubTitle 2"
         }
       ]
-    }
+    },
+    "folder": "subtitle 2"
   },
   {
     "name": "Caption",
@@ -105,7 +110,8 @@
           "value": "Caption"
         }
       ]
-    }
+    },
+    "folder": "caption"
   },
   {
     "name": "Overline",
@@ -123,7 +129,8 @@
           "value": "Update your overline"
         }
       ]
-    }
+    },
+    "folder": "overline"
   },
   {
     "name": "Heading",
@@ -141,7 +148,8 @@
           "value": "Heading"
         }
       ]
-    }
+    },
+    "folder": "heading"
   },
   {
     "name": "Heading 1",
@@ -159,7 +167,8 @@
           "value": "Heading 1"
         }
       ]
-    }
+    },
+    "folder": "heading 1"
   },
   {
     "name": "Heading 2",
@@ -177,7 +186,8 @@
           "value": "Heading 2"
         }
       ]
-    }
+    },
+    "folder": "heading 2"
   },
   {
     "name": "Heading 3",
@@ -195,7 +205,8 @@
           "value": "Heading 3"
         }
       ]
-    }
+    },
+    "folder": "heading 3"
   },
   {
     "name": "Heading 4",
@@ -213,7 +224,8 @@
           "value": "Heading 4"
         }
       ]
-    }
+    },
+    "folder": "heading 4"
   },
   {
     "name": "Heading & Content",
@@ -247,7 +259,8 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "heading-content"
   },
   {
     "name": "Heading, Title & Content",
@@ -293,7 +306,8 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "heading-title-content"
   },
   {
     "name": "Overline, Heading, Title & Content",
@@ -351,6 +365,7 @@
           ]
         }
       ]
-    }
+    },
+    "folder": "overline-heading-title-content"
   }
 ]
