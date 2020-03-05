@@ -1,0 +1,17 @@
+{
+  "name": "Small Text",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "div",
+    "attributes": {
+      "class": "body-2"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is Small Text"
+      }
+    ]
+  }
+}

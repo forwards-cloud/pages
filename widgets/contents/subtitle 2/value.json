@@ -1,0 +1,18 @@
+{
+  "name": "SubTitle 2",
+  "desc": "",
+  "order": 5,
+  "value": {
+    "cmp": "div",
+    "draggable": true,
+    "attributes": {
+      "class": "subtitle-2"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "SubTitle 2"
+      }
+    ]
+  }
+}

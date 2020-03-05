@@ -1,6 +1,6 @@
 {
   "cmp": "section",
-  "attributes": { "fluid": true, "tag": "section" },
+  "attributes": {},
   "children": [
     {
       "cmp": "v-parallax",

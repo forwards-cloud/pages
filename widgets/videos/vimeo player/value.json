@@ -1,0 +1,14 @@
+{
+  "name": "Vimeo Player",
+  "desc": "Vimeo video with Plyr extension",
+  "order": 4,
+  "value": {
+    "cmp": "plyr",
+    "draggable": true,
+    "attributes": {
+      "provider": "vimeo",
+      "embed": "40648169"
+    },
+    "children": []
+  }
+}

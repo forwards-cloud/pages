@@ -1,0 +1,17 @@
+{
+  "name": "Heading 2",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "div",
+    "attributes": {
+      "class": "display-2"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is Heading 2"
+      }
+    ]
+  }
+}

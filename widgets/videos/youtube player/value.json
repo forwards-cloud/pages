@@ -1,0 +1,14 @@
+{
+  "name": "YouTube Player",
+  "desc": "YouTube video with Plyr extension",
+  "order": 2,
+  "value": {
+    "cmp": "plyr",
+    "draggable": true,
+    "attributes": {
+      "provider": "youtube",
+      "embed": "bTqVqk7FSmY"
+    },
+    "children": []
+  }
+}

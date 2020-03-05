@@ -1,0 +1,47 @@
+{
+  "name": "1 row [3/4 column + 1/4 column]",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "v-container",
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "v-row",
+        "attributes": {
+          "class": "d-flex"
+        },
+        "children": [
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "9"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Column 1"
+              }
+            ]
+          },
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12",
+              "md": "3"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Column 2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

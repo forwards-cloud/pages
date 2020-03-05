@@ -1,0 +1,35 @@
+{
+  "name": "Simple SlideShow",
+  "width": 800,
+  "height": 600,
+  "view": {
+    "cmp": "v-carousel",
+    "attributes": {
+      "height": "600",
+      "cycle": true
+    },
+    "children": [
+      {
+        "cmp": "v-carousel-item",
+        "attributes": {
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+        },
+        "children": []
+      },
+      {
+        "cmp": "v-carousel-item",
+        "attributes": {
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+        },
+        "children": []
+      },
+      {
+        "cmp": "v-carousel-item",
+        "attributes": {
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+        },
+        "children": []
+      }
+    ]
+  }
+}

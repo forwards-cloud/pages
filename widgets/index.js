@@ -30,7 +30,7 @@ async function run() {
           console.log("\t", templateFile.name);
           try {
             var components = await readFile(
-              path.join(__dirname, template.name, templateFile.name, "cmp.json"),
+              path.join(__dirname, template.name, templateFile.name, "value.json"),
               "utf8"
             );
             allTemplates.push(JSON.parse(components));

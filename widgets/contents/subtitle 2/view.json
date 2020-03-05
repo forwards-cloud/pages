@@ -1,0 +1,17 @@
+{
+  "name": "SubTitle 2",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "div",
+    "attributes": {
+      "class": "subtitle-2"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is SubTitle-2 text."
+      }
+    ]
+  }
+}

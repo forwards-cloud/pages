@@ -1,0 +1,18 @@
+{
+  "name": "Vimeo",
+  "desc": "Vimeo embedded video",
+  "order": 3,
+  "value": {
+    "cmp": "iframe",
+    "draggable": true,
+    "attributes": {
+      "width": "100%",
+      "height": "480px",
+      "frameborder": 0,
+      "allow": "autoplay; fullscreen",
+      "allowfullscreen": true,
+      "src": "https://player.vimeo.com/video/40648169"
+    },
+    "children": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Image",
+  "width": 400,
+  "height": 400,
+  "view": {
+    "cmp": "img",
+    "attributes": {
+      "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/1024.png",
+      "style": "width: 100%;"
+    },
+    "children": []
+  }
+}

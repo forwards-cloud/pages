@@ -1,0 +1,17 @@
+{
+  "name": "Heading",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "div",
+    "attributes": {
+      "class": "headline"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is Heading"
+      }
+    ]
+  }
+}

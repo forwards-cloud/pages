@@ -1,0 +1,17 @@
+{
+  "name": "Overline",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "div",
+    "attributes": {
+      "class": "overline"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is an Overline"
+      }
+    ]
+  }
+}

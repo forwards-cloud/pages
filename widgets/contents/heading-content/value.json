@@ -1,0 +1,34 @@
+{
+  "name": "Heading & Content",
+  "desc": "",
+  "order": 13,
+  "value": {
+    "cmp": "div",
+    "draggable": true,
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "div",
+        "attributes": {
+          "class": "headline"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading"
+          }
+        ]
+      },
+      {
+        "cmp": "div",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "html",
+            "value": "Update your content"
+          }
+        ]
+      }
+    ]
+  }
+}

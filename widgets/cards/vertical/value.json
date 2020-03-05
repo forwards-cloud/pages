@@ -1,0 +1,64 @@
+{
+  "name": "Vertical Card",
+  "desc": "",
+  "order": 4,
+  "value": {
+    "cmp": "v-card",
+    "draggable": true,
+    "attributes": {
+      "elevation": 4,
+      "style": "margin: 16px auto;max-width: 600px;width: 100%;"
+    },
+    "children": [
+      {
+        "cmp": "v-img",
+        "attributes": {
+          "height": "400",
+          "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png"
+        }
+      },
+      {
+        "cmp": "div",
+        "attributes": {
+          "style": "padding: 2rem"
+        },
+        "children": [
+          {
+            "cmp": "v-card-title",
+            "attributes": {
+              "style": "justify-content: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Heading"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-subtitle",
+            "attributes": {
+              "style": "text-align: center;"
+            },
+            "children": [
+              {
+                "cmp": "text",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "cmp": "v-card-text",
+            "attributes": {},
+            "children": [
+              {
+                "cmp": "html",
+                "value": "Update your content"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

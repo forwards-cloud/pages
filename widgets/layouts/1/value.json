@@ -1,0 +1,28 @@
+{
+  "name": "1 row [1 column]",
+  "desc": "",
+  "order": 1,
+  "value": {
+    "cmp": "v-container",
+    "draggable": true,
+    "attributes": {},
+    "children": [
+      {
+        "cmp": "v-row",
+        "attributes": {
+          "class": "d-flex"
+        },
+        "children": [
+          {
+            "cmp": "v-col",
+            "droppable": true,
+            "attributes": {
+              "cols": "12"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

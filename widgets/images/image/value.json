@@ -1,0 +1,14 @@
+{
+  "name": "Image",
+  "desc": "Simple Image",
+  "order": 1,
+  "value": {
+    "cmp": "img",
+    "draggable": true,
+    "attributes": {
+      "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/1024.png",
+      "style": "width: 100%;"
+    },
+    "children": []
+  }
+}

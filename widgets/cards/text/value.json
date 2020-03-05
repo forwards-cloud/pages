@@ -1,0 +1,49 @@
+{
+  "name": "Text",
+  "desc": "",
+  "order": 3,
+  "value": {
+    "cmp": "v-card",
+    "draggable": true,
+    "attributes": {
+      "elevation": 4,
+      "style": "margin: 1rem auto;max-width: 600px;width: 100%;padding: 2rem;"
+    },
+    "children": [
+      {
+        "cmp": "v-card-title",
+        "attributes": {
+          "style": "justify-content: center;"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Heading"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-subtitle",
+        "attributes": {
+          "style": "text-align: center;"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Title"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-text",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "html",
+            "value": "Update your content"
+          }
+        ]
+      }
+    ]
+  }
+}

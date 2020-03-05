@@ -1,0 +1,64 @@
+{
+  "name": "Photo",
+  "width": 500,
+  "height": 400,
+  "view": {
+    "cmp": "v-card",
+    "attributes": {
+      "elevation": 1,
+      "style": "margin: 0 auto; max-width: 400px;width: 400%;padding: 2rem;"
+    },
+    "children": [
+      {
+        "cmp": "div",
+        "attributes": {
+          "elevation": 12
+        },
+        "children": [
+          {
+            "cmp": "v-avatar",
+            "attributes": {
+              "size": "240",
+              "class": "elevation-12",
+              "style": "display: block;margin: 0 auto;"
+            },
+            "children": [
+              {
+                "cmp": "img",
+                "attributes": {
+                  "style": "background: #fff;",
+                  "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/logos/512.png",
+                  "alt": "Image"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-title",
+        "attributes": {
+          "style": "justify-content: center;"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Name"
+          }
+        ]
+      },
+      {
+        "cmp": "v-card-subtitle",
+        "attributes": {
+          "style": "text-align: center;"
+        },
+        "children": [
+          {
+            "cmp": "text",
+            "value": "Title"
+          }
+        ]
+      }
+    ]
+  }
+}

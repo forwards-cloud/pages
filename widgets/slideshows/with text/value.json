@@ -1,0 +1,123 @@
+{
+  "name": "SlideShow With Text",
+  "desc": "",
+  "order": 2,
+  "value": {
+    "cmp": "v-carousel",
+    "draggable": true,
+    "attributes": {
+      "height": "600",
+      "cycle": true
+    },
+    "children": [
+      {
+        "cmp": "v-carousel-item",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-parallax",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/team.jpg"
+            },
+            "children": [
+              {
+                "cmp": "v-row",
+                "attributes": {
+                  "class": "fill-height",
+                  "align": "center",
+                  "justify": "center"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "display-3"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Team"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-carousel-item",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-parallax",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/kids.jpg"
+            },
+            "children": [
+              {
+                "cmp": "v-row",
+                "attributes": {
+                  "class": "fill-height",
+                  "align": "center",
+                  "justify": "center"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "display-3"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Kids"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cmp": "v-carousel-item",
+        "attributes": {},
+        "children": [
+          {
+            "cmp": "v-parallax",
+            "attributes": {
+              "src": "https://cdn.jsdelivr.net/gh/forwards-cloud/pages/carousels/coding.jpg"
+            },
+            "children": [
+              {
+                "cmp": "v-row",
+                "attributes": {
+                  "class": "fill-height",
+                  "align": "center",
+                  "justify": "center"
+                },
+                "children": [
+                  {
+                    "cmp": "div",
+                    "attributes": {
+                      "class": "display-3"
+                    },
+                    "children": [
+                      {
+                        "cmp": "html",
+                        "value": "Coding"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

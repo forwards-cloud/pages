@@ -1,0 +1,13 @@
+{
+  "name": "Vimeo Player",
+  "width": 800,
+  "height": 600,
+  "view": {
+    "cmp": "plyr",
+    "attributes": {
+      "provider": "vimeo",
+      "embed": "40648169"
+    },
+    "children": []
+  }
+}

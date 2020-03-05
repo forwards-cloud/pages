@@ -1,0 +1,18 @@
+{
+  "name": "Heading 3",
+  "desc": "",
+  "order": 11,
+  "value": {
+    "cmp": "div",
+    "draggable": true,
+    "attributes": {
+      "class": "display-3"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "Heading 3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Title",
+  "width": 1024,
+  "height": 400,
+  "view": {
+    "cmp": "div",
+    "attributes": {
+      "class": "title"
+    },
+    "children": [
+      {
+        "cmp": "text",
+        "value": "This is the Title."
+      }
+    ]
+  }
+}
